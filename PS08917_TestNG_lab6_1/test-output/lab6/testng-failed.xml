@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [lab6]">
+  <test thread-count="5" name="lab6(failed)">
+    <classes>
+      <class name="lab6.firsttestngfile">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- lab6.firsttestngfile -->
+    </classes>
+  </test> <!-- lab6(failed) -->
+</suite> <!-- Failed suite [lab6] -->
